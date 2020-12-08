@@ -1,0 +1,59 @@
+[
+    {
+      "id": 0,
+      "name": "Karl",
+      "age": 26,
+      "image": "https://uploads-ssl.webflow.com/5e20b86d5ad86c7a781f1bef/5fcef7cf687ac0b75c033049_ffhq-1821.png",
+      "message": "What's up man?",
+      "bio": "Can you tell me where you're headed on the road?  Do you have any life goals or dreams that could be started in any format? ",
+      "story": "We were ice skating at Wollman Rink. Within five minutes, he said 'You are too lame for american-style organized hang out.' We never talked again."
+    },
+    {
+      "id": 1,
+      "name": "Martin",
+      "age": 35,
+      "image": "https://lh3.google.com/u/0/d/1DUQOblemeSdZrX5Rssy0n-DpMuonBjv0=w300-h285-p-k-nu-iv1",
+      "message": "How are you doing? I like your picture",
+      "bio": "I grew up in a pretty 'holier than thou' world, and now live here in san francisco. ",
+      "story": "We watched a foreign film at an Art House Cinema. All of a sudden, he said 'So, what's your credit score?' We never talked again."
+    },
+    {
+      "id": 2,
+      "name": "George",
+      "age": 35,
+      "image": "https://lh3.google.com/u/0/d/1NQ-EFQtXc93s21wTj9lSdph-TcFw-DKW=w300-h285-p-k-nu-iv1",
+      "message": "You look good on the first picture",
+      "bio": "I am currently pursuing brazilian goal on a bbq (non-profit), trying to travel to thailand and my only ambition is to meet a nice guy to explore some parts of california once again." ,
+      "story": "We were ice skating at Wollman Rink. Ten mins into date, he said 'If you just lose 10lbs, you would be a ten.' We never talked again."
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "age": 45,
+      "image": "https://lh3.google.com/u/0/d/1xKLIcLYJ6P3UcW8Oip7NIB5E3jfmggil=w300-h285-p-k-nu-iv1",
+      "message": "How's it going?",
+      "bio" : "I was born and raised in san francisco, and arizona in my college days.",
+      "story": "We a fancy restaurant. At the end of the date, he said 'The only reason I've ever really attracted you was because I'm bored.' We never talked again"
+    },
+    {
+      "id": 4,
+      "name": "Dwight",
+      "age": 40,
+      "bio": "I love running and going out with friends. I have five cats and five dogs. ",
+      "image": "https://lh3.google.com/u/0/d/1Im4ju67GyZ8hKbm17DN38GrUd3u5Bne9=w300-h285-p-k-nu-iv1"
+    },
+    {
+      "id": 5,
+      "name": "Edward",
+      "age": 37,
+      "bio": "I've never been married, have 3 children, are living alone now, am looking for someone serious.",
+      "image": "https://uploads-ssl.webflow.com/5e20b86d5ad86c7a781f1bef/5fcef7ce6a55d7f1218e6142_ffhq-1751.png"
+    },
+    {
+      "id": 6,
+      "name": "Alexandra",
+      "age": 32,
+      "bio": "I am looking for an intelligent, loyal, and full-bodied woman to help take care of me.",
+      "image": "https://uploads-ssl.webflow.com/5e20b86d5ad86c7a781f1bef/5fcef7cf687ac0b75c033049_ffhq-1821.png"
+    }
+  ]

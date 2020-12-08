@@ -1,0 +1,46 @@
+.card {
+  position: relative;
+  width: 600px;
+  padding: 20px;
+  max-width: 85vw;
+  height: 70vh;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card__text {
+  position: absolute;
+  bottom: 10px;
+  color: white;
+}
+.card__info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: bottom;
+}
+.card__info > h3 {
+  font-size: 2em;
+}
+.card__info > h4 {
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+.card__text > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  width: 85%;
+}
+
+.tinderCards__cardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.swipe {
+  position: absolute;
+}
