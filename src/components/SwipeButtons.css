@@ -1,9 +1,11 @@
 .swipeButtons {
-  position: fixed;
+  /* position: absolute; */
   bottom: 3vh;
-  width: 100%;
+  /* width: 25vw; */
+
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .swipeButtons .MuiIconButton-root {
@@ -11,20 +13,54 @@
   box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
 }
 .swipeButtons__repeat {
-  padding: 1vw !important;
+  margin: 5px !important;
+  padding: 10px !important;
   color: #f5b748 !important;
 }
 .swipeButtons__left {
-  padding: 1vw !important;
+  margin: 5px !important;
+  padding: 10px !important;
   color: #ec5e6f !important;
 }
 
 .swipeButtons__right {
-  padding: 1vw !important;
+  margin: 5px !important;
+  padding: 10px !important;
   color: #76e2b3 !important;
 }
 
 .swipeButtons__lightning {
-  padding: 1vw !important;
+  margin: 5px !important;
+  padding: 10px !important;
   color: #915dd1 !important;
+}
+
+@media only screen and (max-width: 850px) {
+  .swipeButtons {
+    position: fixed;
+    width: 85vw;
+    bottom: 2vh;
+  }
+  .swipeButtons__repeat {
+    margin: 0 !important;
+    padding: 10px !important;
+    color: #f5b748 !important;
+  }
+  .swipeButtons__left {
+    margin: 0 !important;
+    padding: 10px !important;
+    color: #ec5e6f !important;
+  }
+
+  .swipeButtons__right {
+    margin: 0 !important;
+    padding: 10px !important;
+    color: #76e2b3 !important;
+  }
+
+  .swipeButtons__lightning {
+    margin: 0 !important;
+    padding: 10px !important;
+    color: #915dd1 !important;
+  }
 }

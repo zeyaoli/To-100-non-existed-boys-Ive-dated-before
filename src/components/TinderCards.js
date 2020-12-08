@@ -19,9 +19,8 @@ const TinderCards = ({ person, people, addLikedUser, removeUser }) => {
   };
 
   return (
-    <div>
-      <div className='tinderCards__cardContainer'>
-        {/* {people.map((person) => (
+    <div className='tinderCards__cardContainer'>
+      {/* {people.map((person) => (
           <TinderCard
             className='swipe'
             onSwipe={(direction) => {
@@ -38,28 +37,27 @@ const TinderCards = ({ person, people, addLikedUser, removeUser }) => {
             </div>
           </TinderCard>
         ))} */}
-        <TinderCard
-          className='swipe'
-          onSwipe={(direction) => {
-            swiped(direction, person);
-          }}
-          key={person.id}
-          preventSwipe={["up", "down"]}
+      <TinderCard
+        className='swipe'
+        onSwipe={(direction) => {
+          swiped(direction, person);
+        }}
+        key={person.id}
+        preventSwipe={["up", "down"]}
+      >
+        <div
+          style={{ backgroundImage: `url(${person.image})` }}
+          className='card'
         >
-          <div
-            style={{ backgroundImage: `url(${person.image})` }}
-            className='card'
-          >
-            <div className='card__text'>
-              <div className='card__info'>
-                <h3>{person.name}</h3>
-                <h4>{person.age}</h4>
-              </div>
-              <p className='card__name'>{person.bio}</p>
+          <div className='card__text'>
+            <div className='card__info'>
+              <h3>{person.name}</h3>
+              <h4>{person.age}</h4>
             </div>
+            <p className='card__name'>{person.bio}</p>
           </div>
-        </TinderCard>
-      </div>
+        </div>
+      </TinderCard>
     </div>
   );
 };

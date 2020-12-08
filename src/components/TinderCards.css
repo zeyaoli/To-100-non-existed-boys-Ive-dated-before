@@ -1,9 +1,9 @@
 .card {
   position: relative;
-  width: 600px;
+  width: 25vw;
   padding: 20px;
   max-width: 85vw;
-  height: 70vh;
+  height: 67.5vh;
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -38,9 +38,22 @@
 .tinderCards__cardContainer {
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 4vh;
 }
 
 .swipe {
-  position: absolute;
+  /* position: absolute; */
+}
+
+@media only screen and (max-width: 850px) {
+  .card {
+    width: 100vw;
+    max-width: 70vw;
+    height: 60vh;
+  }
+  .tinderCards__cardContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh;
+  }
 }

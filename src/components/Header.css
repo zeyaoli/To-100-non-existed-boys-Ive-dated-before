@@ -8,3 +8,9 @@
   height: 40px;
   object-fit: contain;
 }
+
+@media only screen and (max-width: 850px) {
+  .header {
+    width: 85vw;
+  }
+}
