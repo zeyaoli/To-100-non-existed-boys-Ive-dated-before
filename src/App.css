@@ -11,6 +11,7 @@
 .tinder {
   max-width: 450px;
   /* width: 25vw; */
+  min-width: 375px;
   padding: 20px;
   margin: auto;
   margin-top: 0;
@@ -22,14 +23,15 @@
   .app {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
   }
   .about {
-    width: 100vw;
     display: none;
   }
   .tinder {
-    width: 90vw;
-    margin: 30px;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
   }
 }

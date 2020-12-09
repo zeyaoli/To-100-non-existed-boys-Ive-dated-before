@@ -37,8 +37,8 @@
 
 @media only screen and (max-width: 850px) {
   .swipeButtons {
-    position: fixed;
-    width: 85vw;
+    width: 100%;
+    margin-top: 2vh;
     bottom: 2vh;
   }
   .swipeButtons__repeat {
