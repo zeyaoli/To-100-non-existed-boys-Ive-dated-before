@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className='about'>
-      <h1>Too 100 (non-existed) Boys I've dated before</h1>
+      <h1>To 100 (Non-existed) Boys I've Dated Before</h1>
       <h3>
         A Tinder Clone that tells my frustrating dating experiences with 100
         non-existed men whose dating profiles and stories are machine learning
