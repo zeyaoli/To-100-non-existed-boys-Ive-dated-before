@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   max-width: 1440px;
-  margin: 20px auto;
+  margin: 20px;
   padding: 1.5rem;
   border: 2px #ffffff solid;
   overflow: hidden;
@@ -47,6 +47,12 @@
     padding: 0;
     flex-direction: column;
     width: 90vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .app {
+    margin: 20px auto;
   }
 }
 
