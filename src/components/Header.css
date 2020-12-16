@@ -6,6 +6,7 @@
 }
 
 .header__logo {
+  margin-top: 5px;
   height: 40px;
   object-fit: contain;
 }

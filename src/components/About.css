@@ -22,6 +22,14 @@
   width: 85%;
 }
 
-.folded > p > li {
+.folded > ul > li {
   margin: 5px 0;
+}
+
+.folded > ul > li > a {
+  text-decoration: underline;
+}
+
+.folded > li > a {
+  text-decoration: underline;
 }

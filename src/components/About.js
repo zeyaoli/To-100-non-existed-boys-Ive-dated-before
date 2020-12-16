@@ -23,9 +23,9 @@ const About = () => {
       <div className='folded'>
         <h2>How to play with the project?</h2>
         <p>
-          Swipe! Use it as a regular Tinder. If you swipe right, you will get my
-          dating story with the man you matched. The chat stores all the men you
-          connect with and the dating story behind them.
+          <b>Swipe!</b> Use it as a regular Tinder. If you swipe right, you will
+          get my dating story with the man you matched. The chat stores all the
+          men you connect with and the dating story behind them.
         </p>
       </div>
       <div className='folded'>
@@ -34,7 +34,7 @@ const About = () => {
       </div>
       <div className='folded'>
         <h2>Where do we get the data?</h2>
-        <p>
+        <ul>
           <li>
             Profile photos are from StyleGan2 for{" "}
             <a href='https://github.com/NVlabs/stylegan2'>FFHQ dataset</a>, one
@@ -56,14 +56,25 @@ const About = () => {
             information. From the open-ended questions, we picked the three most
             related ones, bio, fun fact, and "what are you looking for" Then, we
             trained the models with GPT2 using Runway ML.
-            <li>
-              Dating stories are trained from the 'what are you looking for' and
-              fun fact categories of the Ok-Cupid profiles dataset. We put the
-              training result into Tracey, a context-free grammar, and generated
-              the story with particular grammar.
-            </li>
           </li>
-        </p>
+          <li>
+            Dating stories are trained from the 'what are you looking for' and
+            fun fact categories of the Ok-Cupid profiles dataset. We put the
+            training result into Tracey, a context-free grammar, and generated
+            the story with particular grammar.
+          </li>
+        </ul>
+      </div>
+      <div className='folded'>
+        <h2>Who made this?</h2>
+        <li>
+          Web Designer and Developer: <a href='https://zeyaoli.com'>Zeyao Li</a>
+        </li>
+        <li>
+          Data Collection and Training:{" "}
+          <a href='https://www.tianxuzhou.xyz/'>Tianxu Zhou</a> and{" "}
+          <a href='https://zeyaoli.com'>Zeyao Li</a>
+        </li>
       </div>
     </div>
   );

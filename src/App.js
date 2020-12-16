@@ -67,7 +67,11 @@ const App = () => {
                 />
               )}
 
-              <SwipeButtons />
+              <SwipeButtons
+                person={people[0]}
+                addLikedUser={addLikedUser}
+                removeUser={removeUser}
+              />
             </Route>
           </Switch>
         </Router>
