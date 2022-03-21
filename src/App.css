@@ -1,63 +1,71 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
 .app {
-  display: flex;
-  flex-direction: row;
-  max-width: 1440px;
-  margin: 20px;
-  padding: 1.5rem;
-  border: 2px #ffffff solid;
-  overflow: hidden;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 1.5rem;
+    overflow: hidden;
+    justify-content: center;
+    max-height: 90vh;
 }
 .about {
-  width: 60vw;
-  margin: 20px;
-  padding: 20px;
-  font-family: "IBM Plex Mono", monospace;
-  color: #ffffff;
-  height: 80vh;
-  overflow: auto;
+    width: 60vw;
+    max-width: 700px;
+    margin: 20px;
+    padding: 25px;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    overflow: auto;
+    line-height: 1.5;
+    background: linear-gradient(
+        180deg,
+        #e9467a 0%,
+        #ec606e 50.85%,
+        #ee7a61 100%
+    );
+    border-radius: 8px;
 }
 .tinder {
-  max-width: 550px;
-  width: 30vw;
-  /* min-width: 375px; */
-  padding: 20px;
-  margin: auto;
-  overflow-y: hidden;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    max-width: 400px;
+    width: 100%;
+    /* min-width: 375px; */
+    padding: 30px;
+    margin: auto;
+    overflow-y: hidden;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 6px 0 rgb(185 191 200 / 74%);
+    border-radius: 8px;
 }
 
 @media only screen and (max-width: 1024px) {
-  .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .about {
-    display: none;
-  }
-  .tinder {
-    margin: 0;
-    display: flex;
-    padding: 0;
-    flex-direction: column;
-    width: 90vw;
-  }
+    .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about {
+        display: none;
+    }
+    .tinder {
+        margin: 0;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        max-width: 480px;
+        width: 90vw;
+    }
 }
 
-@media (min-width: 1440px) {
-  .app {
-    margin: 20px auto;
-  }
+@media screen and (min-width: 768px) {
 }
 
-@media (min-width: 2250px) {
-  .tinder {
-    width: 40vw;
-  }
+@media screen and (min-width: 1440px) {
+    .app {
+        max-width: 1390px;
+        margin: 20px auto;
+    }
 }

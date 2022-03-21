@@ -1,31 +1,37 @@
 .match {
-  position: absolute;
-  background-color: #f52660;
-  width: 30vw;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
-  padding: 20px;
-  font-family: "IBM Plex Mono", monospace;
-  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background-color: #fff;
+    width: 50vw;
+    max-width: 500px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
 }
 .match > h3 {
-  color: #ffffff;
-  font-size: 1rem;
+    color: #21262e;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #a0a0a0;
 }
 
 .match__text {
-  margin: 10px 0;
-  color: #ffffff;
-  font-size: 0.9rem;
+    margin: 10px 0;
+    color: #21262e;
+    font-size: 0.9rem;
 }
 .match > button {
-  padding: 10px;
-  margin: 5px;
-  font-family: "IBM Plex Mono", monospace;
+    padding: 10px;
+    margin: 5px;
+    font-family: "Inter", sans-serif;
+    border-radius: 8px;
 }

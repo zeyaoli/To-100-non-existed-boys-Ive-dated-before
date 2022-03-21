@@ -1,35 +1,35 @@
 .folded {
-  border-top: 2px #ffffff solid;
-  margin: 20px 0;
+    border-top: 2px rgba(255, 255, 255, 0.2) solid;
+    margin: 20px 0;
 }
 
 .about > h1 {
-  margin-bottom: 10px;
-  width: 85%;
+    margin-bottom: 10px;
+    width: 85%;
 }
 
 .about > h3 {
-  margin-top: 10px;
-  font-size: 1.2rem;
-  width: 85%;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    width: 85%;
 }
 
 .folded > h2 {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 .folded > p {
-  width: 85%;
+    width: 85%;
 }
 
 .folded > ul > li {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 .folded > ul > li > a {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .folded > li > a {
-  text-decoration: underline;
+    text-decoration: underline;
 }
